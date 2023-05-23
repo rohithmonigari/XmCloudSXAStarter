@@ -1,0 +1,63 @@
+﻿---
+ID: "33071048-cb5e-5780-ab25-a6ec63102148"
+Parent: "ccd7acfa-6848-5b61-960c-fb0a533d3cd3"
+Template: "ccd7acfa-6848-5b61-960c-fb0a533d3cd3"
+Path: "/sitecore/templates/Project/sitecore-jss-app/App Route/__Standard Values"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: "{CCD7ACFA-6848-5B61-960C-FB0A533D3CD3}"
+- ID: "ca9b9f52-4fb0-4f87-a79f-24dea62cda65"
+  Hint: __Default workflow
+  Value: "{6C59AE29-D0A1-4B77-9305-0ABAB21D5FE5}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{7ACDB359-384C-5804-80A4-FA650B78F0FE}">
+        <p
+          uid="{5F82C20C-87FF-565C-9B17-E2705E0FEDDE}"
+          key="jss-main"
+          md="{B05CADBF-0E62-5B54-B47F-2A91012948AF}" />
+        <p
+          uid="{07BFFF7A-959A-5C29-A233-AA329D04C7D3}"
+          key="jss-tabs"
+          md="{712D3336-0CA3-5751-B17E-05407509F6C9}" />
+        <p
+          uid="{2057D6A1-966D-5CDE-B14D-7C5BA2479474}"
+          key="jss-nav"
+          md="{A6D9B149-5D24-557D-8774-E028113D158D}" />
+        <p
+          uid="{4D7B0A2A-D6B1-5CEB-AD45-387D5DA3F4EB}"
+          key="jss-hero"
+          md="{25080F20-AB2E-5A34-9E49-963B3C0BBC5D}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230522T073651Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\JssImport
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\JssImport
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5882444c-fa8b-49a5-aa2c-c7f03eac5520"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\JssImport
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230522T073654Z

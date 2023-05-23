@@ -1,0 +1,29 @@
+{
+    "$schema": "../.sitecore/schemas/ModuleFile.schema.json",
+    "namespace": "MigrationJSSWebsite-Content",
+    "references": [ "MigrationJSSWebsite" ],
+    "items": {
+        "includes": [
+            {
+                "name": "heladless-tenant-root",
+                "path": "/sitecore/content/HeadlessTenant",
+                "scope": "singleItem",
+                "allowedPushOperations": "createAndUpdate"
+            },
+            {
+                "name": "sxa-content",
+                "path": "/sitecore/content/HeadlessTenant/sitecore-jss-app"
+            },
+            {
+                "name": "sxa-media-tenant",
+                "path": "/sitecore/media library/Project/HeadlessTenant",
+                "scope": "singleItem",
+                "allowedPushOperations": "createAndUpdate"
+            },
+            {
+                "name": "sxa-media",
+                "path": "/sitecore/media library/Project/HeadlessTenant/sitecore-jss-app"
+            }
+        ]
+    }
+}
