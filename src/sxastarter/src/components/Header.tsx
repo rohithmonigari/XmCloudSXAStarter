@@ -1,15 +1,20 @@
-import { LinkField, withDatasourceCheck, ImageField, Image} from '@sitecore-jss/sitecore-jss-nextjs';
-import { ComponentProps } from 'lib/component-props';
+import {
+  LinkField,
+  withDatasourceCheck,
+  ImageField,
+  Image,
+} from '@sitecore-jss/sitecore-jss-nextjs';
 
+import { ComponentProps } from 'lib/component-props';
 type HeaderProps = ComponentProps & {
   fields: {
     headerimg: ImageField;
-    buttonurl:LinkField;
+    buttonurl: LinkField;
   };
 };
 
 const Header = (props: HeaderProps): JSX.Element => (
-<div>
+  <div>
     <div className="header">
       <div className="headerimg">
         <Image field={props.fields.headerimg} />

@@ -1,8 +1,5 @@
 const Scripts = (): JSX.Element => {
-  return (
-    <>
-    </>
-  );
+  return <></>;
 };
 
 export default Scripts;
