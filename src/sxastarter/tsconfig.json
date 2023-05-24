@@ -5,6 +5,7 @@
       "components/*": ["src/components/*"],
       "lib/*": ["src/lib/*"],
       "temp/*": ["src/temp/*"],
+      "types/*": ["src/types/*"],
       "assets/*": ["src/assets/*"],
       "graphql-types": ["node_modules/@types/graphql-let/__generated__/__types__"]
     },
